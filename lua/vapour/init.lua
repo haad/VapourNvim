@@ -73,7 +73,7 @@ Vapour = {
     treesitter = {
       enabled = true,
       ensure_installed = "all",
-      ignore_install = {},
+      ignore_install = {"php", "phpdoc", "d"},
       indent = {enable = false},
       highlight = {enable = true},
       autotag = {enable = true},
